@@ -1,0 +1,2 @@
+model_checkpoint_path: "sh.600519-closeprice-7d.ckpt"
+all_model_checkpoint_paths: "sh.600519-closeprice-7d.ckpt"

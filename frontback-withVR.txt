@@ -1,0 +1,1945 @@
+戴头盔
+Log Dir is C:\Users\Administrator\Desktop\DKTryout-GPU\logs
+K4A_ENABLE_LOG_TO_A_FILE: C:\Users\Administrator\Desktop\DKTryout-GPU\logs\k4a-2020-07-22.log
+K4A_LOG_LEVEL: i
+K4ABT_ENABLE_LOG_TO_A_FILE: C:\Users\Administrator\Desktop\DKTryout-GPU\logs\k4abt-2020-07-22.log
+K4ABT_LOG_LEVEL: w
+Installed K4A device Count: 1
+Serial Number of device: 000710695012
+Total Duration: 0
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1366.72
+Total Duration: 0.04906
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1364.75
+Total Duration: 0.095104
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1364.76
+Total Duration: 0.140633
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1369.92
+Total Duration: 0.186081
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1368.23
+Total Duration: 0.233268
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1369.97
+Total Duration: 0.277764
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1365.58
+Total Duration: 0.321998
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1365.5
+Total Duration: 0.369013
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1370.98
+Total Duration: 0.414394
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1370.94
+Total Duration: 0.459578
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1370.31
+Total Duration: 0.504747
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1370.3
+Total Duration: 0.550614
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1369.63
+Total Duration: 0.598073
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1368.27
+Total Duration: 0.643968
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1368.27
+Total Duration: 0.688763
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1372.43
+Total Duration: 0.73611
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1370.03
+Total Duration: 0.781867
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1368.61
+Total Duration: 0.829729
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1368.62
+Total Duration: 0.875642
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1368.82
+Total Duration: 0.921595
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1368.82
+Total Duration: 0.96748
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1369.28
+Total Duration: 1.01299
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1369.06
+Total Duration: 1.05994
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1369.07
+Total Duration: 1.1054
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1362.98
+Total Duration: 1.15187
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1362.96
+Total Duration: 1.20047
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1362.96
+Total Duration: 1.24576
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1362.96
+Total Duration: 1.29043
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1362.96
+Total Duration: 1.33598
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1362.96
+Total Duration: 1.38254
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1373.89
+Total Duration: 1.42965
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1373.55
+Total Duration: 1.47597
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1373.56
+Total Duration: 1.52177
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1373.56
+Total Duration: 1.56828
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1373.56
+Total Duration: 1.61352
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1369.3
+Total Duration: 1.66013
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1369.85
+Total Duration: 1.70689
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1372.88
+Total Duration: 1.75372
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1372.89
+Total Duration: 1.80089
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1372.9
+Total Duration: 1.8479
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1370.33
+Total Duration: 1.89531
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1371.92
+Total Duration: 1.94061
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1371.91
+Total Duration: 1.98636
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1372.41
+Total Duration: 2.03489
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1360.59
+Total Duration: 2.08121
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1369.8
+Total Duration: 2.12793
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1370.03
+Total Duration: 2.17387
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1370.31
+Total Duration: 2.22086
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1372.82
+Total Duration: 2.26714
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1373.99
+Total Duration: 2.31265
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.26
+Total Duration: 2.36018
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1375.36
+Total Duration: 2.40549
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1375.32
+Total Duration: 2.45168
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1375.32
+Total Duration: 2.49945
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1375.27
+Total Duration: 2.545
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1375.27
+Total Duration: 2.58948
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.03
+Total Duration: 2.63603
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1373.9
+Total Duration: 2.68278
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1373.87
+Total Duration: 2.72962
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.01
+Total Duration: 2.77426
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.01
+Total Duration: 2.81943
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.01
+Total Duration: 2.86609
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.01
+Total Duration: 2.91067
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.01
+Total Duration: 2.95546
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.04
+Total Duration: 3.00233
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.04
+Total Duration: 3.04818
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.06
+Total Duration: 3.09326
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.06
+Total Duration: 3.13838
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.06
+Total Duration: 3.18445
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.06
+Total Duration: 3.23055
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.06
+Total Duration: 3.27436
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1375.93
+Total Duration: 3.31922
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1377.23
+Total Duration: 3.36942
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1377.13
+Total Duration: 3.41743
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1376.79
+Total Duration: 3.47051
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1376.35
+Total Duration: 3.51996
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1375.05
+Total Duration: 3.56912
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1375.47
+Total Duration: 3.61771
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.99
+Total Duration: 3.6682
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1378.38
+Total Duration: 3.71495
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1377.9
+Total Duration: 3.76167
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1376.69
+Total Duration: 3.80707
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1376.67
+Total Duration: 3.85314
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.61
+Total Duration: 3.90085
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1374.63
+Total Duration: 3.94661
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1369.94
+Total Duration: 3.99288
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1367.6
+Total Duration: 4.03907
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1368.19
+Total Duration: 4.08491
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1368.21
+Total Duration: 4.13256
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1370.99
+Total Duration: 4.17934
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1370.78
+Total Duration: 4.22623
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1370.78
+Total Duration: 4.27138
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1371.28
+Total Duration: 4.31813
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1370.64
+Total Duration: 4.36646
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1370.45
+Total Duration: 4.41276
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1360.51
+Total Duration: 4.4594
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1358.91
+Total Duration: 4.50613
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1358.86
+Total Duration: 4.55263
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1358.66
+Total Duration: 4.60065
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1358.65
+Total Duration: 4.64744
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1352.16
+Total Duration: 4.69395
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.47
+Total Duration: 4.73996
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.47
+Total Duration: 4.7859
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1351.22
+Total Duration: 4.83475
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1354.78
+Total Duration: 4.88085
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1354.79
+Total Duration: 4.92729
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1354.79
+Total Duration: 4.9729
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1354.53
+Total Duration: 5.01917
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1354.54
+Total Duration: 5.06657
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1354.54
+Total Duration: 5.11213
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1352.69
+Total Duration: 5.15786
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1352.69
+Total Duration: 5.20323
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1352.69
+Total Duration: 5.25532
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1352.69
+Total Duration: 5.30052
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1352.69
+Total Duration: 5.34519
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1352.69
+Total Duration: 5.39048
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1349.02
+Total Duration: 5.43864
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.69
+Total Duration: 5.48531
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.88
+Total Duration: 5.53271
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1349.01
+Total Duration: 5.57871
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.02
+Total Duration: 5.62448
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.02
+Total Duration: 5.67197
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.02
+Total Duration: 5.71785
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.02
+Total Duration: 5.76352
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.02
+Total Duration: 5.80792
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.74
+Total Duration: 5.8541
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1346.46
+Total Duration: 5.9021
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1346.62
+Total Duration: 5.94847
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1346.46
+Total Duration: 5.99529
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1346.41
+Total Duration: 6.04182
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1346.4
+Total Duration: 6.08851
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1346.4
+Total Duration: 6.13401
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1346.83
+Total Duration: 6.18021
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.62
+Total Duration: 6.22769
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.36
+Total Duration: 6.27429
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.16
+Total Duration: 6.32063
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.2
+Total Duration: 6.37047
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.12
+Total Duration: 6.41596
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.11
+Total Duration: 6.46236
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.1
+Total Duration: 6.50873
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.16
+Total Duration: 6.55574
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.2
+Total Duration: 6.60187
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.5
+Total Duration: 6.64845
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.5
+Total Duration: 6.69466
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.84
+Total Duration: 6.74047
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.64
+Total Duration: 6.78662
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.6
+Total Duration: 6.83495
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.71
+Total Duration: 6.88119
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.71
+Total Duration: 6.92523
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.71
+Total Duration: 6.97048
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.7
+Total Duration: 7.01707
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.7
+Total Duration: 7.06212
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.7
+Total Duration: 7.10773
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1338.89
+Total Duration: 7.154
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1338.66
+Total Duration: 7.20204
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1336.01
+Total Duration: 7.2477
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1336
+Total Duration: 7.29389
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.25
+Total Duration: 7.33999
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.25
+Total Duration: 7.3851
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.25
+Total Duration: 7.43013
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.25
+Total Duration: 7.47501
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.25
+Total Duration: 7.52128
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.25
+Total Duration: 7.56754
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.25
+Total Duration: 7.61175
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.76
+Total Duration: 7.65843
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.76
+Total Duration: 7.70466
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.84
+Total Duration: 7.75107
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1336.4
+Total Duration: 7.79885
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1336.39
+Total Duration: 7.84551
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1336.42
+Total Duration: 7.892
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1336.39
+Total Duration: 7.93816
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1338.43
+Total Duration: 7.98452
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1338.35
+Total Duration: 8.03169
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1337.63
+Total Duration: 8.07813
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1337.33
+Total Duration: 8.12434
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1336.23
+Total Duration: 8.17094
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1330.94
+Total Duration: 8.21664
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1331
+Total Duration: 8.26253
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1332.26
+Total Duration: 8.30885
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.39
+Total Duration: 8.35642
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.39
+Total Duration: 8.40513
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.91
+Total Duration: 8.45208
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.96
+Total Duration: 8.49908
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1344.22
+Total Duration: 8.54442
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1346.15
+Total Duration: 8.59037
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1346.39
+Total Duration: 8.63679
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1346.06
+Total Duration: 8.68244
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.25
+Total Duration: 8.72833
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1349.25
+Total Duration: 8.77539
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1351.05
+Total Duration: 8.82279
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1354.55
+Total Duration: 8.86927
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1362.8
+Total Duration: 8.91538
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1360.92
+Total Duration: 8.96235
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1358.97
+Total Duration: 9.00862
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1358.17
+Total Duration: 9.05478
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1360.59
+Total Duration: 9.10229
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1360.48
+Total Duration: 9.14849
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1360.34
+Total Duration: 9.19496
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.59
+Total Duration: 9.24151
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.59
+Total Duration: 9.28812
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.84
+Total Duration: 9.33483
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.31
+Total Duration: 9.3819
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.25
+Total Duration: 9.4291
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1338.14
+Total Duration: 9.47501
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1338.17
+Total Duration: 9.52103
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1338.14
+Total Duration: 9.56956
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1335.7
+Total Duration: 9.61518
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1335.7
+Total Duration: 9.66091
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1335.7
+Total Duration: 9.70622
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1330.82
+Total Duration: 9.753
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1330.69
+Total Duration: 9.80046
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1330.72
+Total Duration: 9.84688
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1329.56
+Total Duration: 9.89387
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1327.44
+Total Duration: 9.93932
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1326.63
+Total Duration: 9.98593
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1323.33
+Total Duration: 10.0333
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1331.7
+Total Duration: 10.0802
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1338.06
+Total Duration: 10.1262
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1337.98
+Total Duration: 10.1718
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1337.98
+Total Duration: 10.2179
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1337.89
+Total Duration: 10.2648
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.33
+Total Duration: 10.3102
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1330.39
+Total Duration: 10.3573
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1336.32
+Total Duration: 10.4044
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.34
+Total Duration: 10.4496
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.34
+Total Duration: 10.4958
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.34
+Total Duration: 10.542
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1345.33
+Total Duration: 10.5877
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1346.81
+Total Duration: 10.6355
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.72
+Total Duration: 10.6818
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.52
+Total Duration: 10.7285
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.59
+Total Duration: 10.7745
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.66
+Total Duration: 10.8197
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1351.13
+Total Duration: 10.867
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.58
+Total Duration: 10.9124
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.58
+Total Duration: 10.9585
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.58
+Total Duration: 11.0057
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1349.38
+Total Duration: 11.0527
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1349.39
+Total Duration: 11.0986
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1350.55
+Total Duration: 11.1447
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1350.55
+Total Duration: 11.1895
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1350.59
+Total Duration: 11.2359
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1350.64
+Total Duration: 11.2816
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1350.63
+Total Duration: 11.3295
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1350.62
+Total Duration: 11.3765
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1350.62
+Total Duration: 11.4215
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1350.62
+Total Duration: 11.4687
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.89
+Total Duration: 11.5158
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1349.7
+Total Duration: 11.5629
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1349.55
+Total Duration: 11.6093
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1347.19
+Total Duration: 11.6569
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1346.08
+Total Duration: 11.7039
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1349.54
+Total Duration: 11.75
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1349.84
+Total Duration: 11.7967
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.24
+Total Duration: 11.8426
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.11
+Total Duration: 11.8881
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1348.11
+Total Duration: 11.9342
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1342.77
+Total Duration: 11.9804
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1343.18
+Total Duration: 12.0267
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1343.12
+Total Duration: 12.0719
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1341.49
+Total Duration: 12.1179
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1340.87
+Total Duration: 12.1657
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1340.75
+Total Duration: 12.2116
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1340.64
+Total Duration: 12.2581
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1340.11
+Total Duration: 12.3062
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1339.64
+Total Duration: 12.352
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1339.33
+Total Duration: 12.3988
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1338.52
+Total Duration: 12.4458
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1342.93
+Total Duration: 12.4922
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1342.75
+Total Duration: 12.5387
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1343
+Total Duration: 12.585
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1342.22
+Total Duration: 12.632
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1342.22
+Total Duration: 12.6765
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1342.22
+Total Duration: 12.7222
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1342.07
+Total Duration: 12.7704
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1342.1
+Total Duration: 12.8172
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1342.1
+Total Duration: 12.8643
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1342.02
+Total Duration: 12.9107
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1340.88
+Total Duration: 12.958
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1340.42
+Total Duration: 13.0046
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1335.07
+Total Duration: 13.0506
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1335.05
+Total Duration: 13.0994
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1329.62
+Total Duration: 13.1453
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1329.58
+Total Duration: 13.1913
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1329.5
+Total Duration: 13.2384
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1327.03
+Total Duration: 13.2841
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1326.98
+Total Duration: 13.33
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1326.98
+Total Duration: 13.3772
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1326.81
+Total Duration: 13.4241
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1327.08
+Total Duration: 13.4698
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.08
+Total Duration: 13.5166
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.06
+Total Duration: 13.5641
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.05
+Total Duration: 13.6094
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1323.05
+Total Duration: 13.6558
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1319.83
+Total Duration: 13.7036
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1317.66
+Total Duration: 13.7502
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1310.43
+Total Duration: 13.7976
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1310.65
+Total Duration: 13.8443
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1310.66
+Total Duration: 13.8908
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1310.66
+Total Duration: 13.9362
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1304
+Total Duration: 13.9827
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1303.81
+Total Duration: 14.0299
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1303.82
+Total Duration: 14.0759
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1303.86
+Total Duration: 14.1223
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1300.68
+Total Duration: 14.1703
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1301.02
+Total Duration: 14.2173
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296.88
+Total Duration: 14.265
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296.77
+Total Duration: 14.3123
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1293.72
+Total Duration: 14.3586
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1297.51
+Total Duration: 14.4052
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296.19
+Total Duration: 14.4525
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1295.47
+Total Duration: 14.4999
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1295.38
+Total Duration: 14.5454
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1295.6
+Total Duration: 14.5919
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1294.55
+Total Duration: 14.6392
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1295.97
+Total Duration: 14.6855
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1295.71
+Total Duration: 14.7325
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296.33
+Total Duration: 14.7791
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296.05
+Total Duration: 14.8259
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296.02
+Total Duration: 14.8712
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296.05
+Total Duration: 14.9182
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296
+Total Duration: 14.9668
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296
+Total Duration: 15.0127
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296
+Total Duration: 15.0585
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296
+Total Duration: 15.1048
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1295.88
+Total Duration: 15.1517
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296.26
+Total Duration: 15.1989
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296.83
+Total Duration: 15.2457
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296.82
+Total Duration: 15.2922
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1297.2
+Total Duration: 15.3393
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1299.06
+Total Duration: 15.3862
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1299.07
+Total Duration: 15.4337
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1299.08
+Total Duration: 15.48
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1298.68
+Total Duration: 15.5269
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1297.22
+Total Duration: 15.5746
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1295.18
+Total Duration: 15.6202
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1293.41
+Total Duration: 15.6689
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1293.39
+Total Duration: 15.7159
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1293.42
+Total Duration: 15.7625
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1294.27
+Total Duration: 15.8085
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1294.13
+Total Duration: 15.8554
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1294.85
+Total Duration: 15.9029
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1294.84
+Total Duration: 15.95
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1294.81
+Total Duration: 15.9981
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1294.81
+Total Duration: 16.0424
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1295.15
+Total Duration: 16.0883
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1294.86
+Total Duration: 16.1362
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1294.75
+Total Duration: 16.1829
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1293.17
+Total Duration: 16.23
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1293.16
+Total Duration: 16.277
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1290.36
+Total Duration: 16.3232
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1290.36
+Total Duration: 16.3697
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1290.36
+Total Duration: 16.415
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1290.36
+Total Duration: 16.4615
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1290.7
+Total Duration: 16.5073
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1291.96
+Total Duration: 16.5531
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1291.88
+Total Duration: 16.6002
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1291.88
+Total Duration: 16.6467
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1290.95
+Total Duration: 16.693
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1290.44
+Total Duration: 16.7406
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1289.6
+Total Duration: 16.7877
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1290.35
+Total Duration: 16.8345
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1290.49
+Total Duration: 16.8813
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1290.5
+Total Duration: 16.9283
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1290.7
+Total Duration: 16.9742
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1296.92
+Total Duration: 17.0203
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1300.21
+Total Duration: 17.0678
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1300.55
+Total Duration: 17.1144
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1310.74
+Total Duration: 17.1608
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1314.47
+Total Duration: 17.2084
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1315.64
+Total Duration: 17.2549
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1315.79
+Total Duration: 17.3008
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.16
+Total Duration: 17.3479
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.13
+Total Duration: 17.3947
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.02
+Total Duration: 17.4409
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1330.05
+Total Duration: 17.4875
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1330.01
+Total Duration: 17.5355
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1331.99
+Total Duration: 17.5817
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1334.75
+Total Duration: 17.628
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1333.71
+Total Duration: 17.6757
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1339.19
+Total Duration: 17.7223
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1339.18
+Total Duration: 17.7702
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1338.25
+Total Duration: 17.8178
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1338.23
+Total Duration: 17.8644
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.31
+Total Duration: 17.9093
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1324.67
+Total Duration: 17.9563
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1317.16
+Total Duration: 18.006
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1318.23
+Total Duration: 18.0525
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1311.04
+Total Duration: 18.1007
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1318.29
+Total Duration: 18.1474
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1318.25
+Total Duration: 18.193
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1311.82
+Total Duration: 18.2404
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1311.78
+Total Duration: 18.2874
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1312.82
+Total Duration: 18.3345
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1318
+Total Duration: 18.382
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1318.13
+Total Duration: 18.4286
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1318.13
+Total Duration: 18.4735
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1310.8
+Total Duration: 18.5209
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1304.43
+Total Duration: 18.5701
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1303.79
+Total Duration: 18.6169
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1303.78
+Total Duration: 18.6639
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1301.59
+Total Duration: 18.7111
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1300.35
+Total Duration: 18.7574
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1303.2
+Total Duration: 18.8061
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1309.71
+Total Duration: 18.8539
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1309.75
+Total Duration: 18.9006
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1309.75
+Total Duration: 18.9472
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1324.32
+Total Duration: 18.9947
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1324.28
+Total Duration: 19.0418
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1323.96
+Total Duration: 19.0882
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1324.67
+Total Duration: 19.1364
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1324.67
+Total Duration: 19.1817
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1324.72
+Total Duration: 19.2279
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1326.8
+Total Duration: 19.2753
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1326.68
+Total Duration: 19.3226
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.12
+Total Duration: 19.3708
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1318.28
+Total Duration: 19.4203
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1318.53
+Total Duration: 19.4678
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1317.22
+Total Duration: 19.5133
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1314.92
+Total Duration: 19.5599
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1319.7
+Total Duration: 19.6066
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1318.15
+Total Duration: 19.6534
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1319.02
+Total Duration: 19.701
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1314.43
+Total Duration: 19.7487
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1313.72
+Total Duration: 19.7952
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1309.63
+Total Duration: 19.8423
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1315.59
+Total Duration: 19.8894
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1315.15
+Total Duration: 19.9371
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1312.99
+Total Duration: 19.9844
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1318.23
+Total Duration: 20.0315
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1316.62
+Total Duration: 20.077
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1319.35
+Total Duration: 20.1231
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1320.96
+Total Duration: 20.1725
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.28
+Total Duration: 20.2182
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.44
+Total Duration: 20.2648
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.1
+Total Duration: 20.3103
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.05
+Total Duration: 20.357
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.71
+Total Duration: 20.406
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.96
+Total Duration: 20.4532
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.98
+Total Duration: 20.4997
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.1
+Total Duration: 20.5462
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1328.3
+Total Duration: 20.5934
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.95
+Total Duration: 20.6397
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.96
+Total Duration: 20.686
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.88
+Total Duration: 20.7337
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1323.04
+Total Duration: 20.7803
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1323.33
+Total Duration: 20.8256
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1320.33
+Total Duration: 20.8724
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.28
+Total Duration: 20.9186
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1323.54
+Total Duration: 20.965
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1323.59
+Total Duration: 21.0103
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1323.6
+Total Duration: 21.0567
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1324.71
+Total Duration: 21.1043
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1324.74
+Total Duration: 21.1503
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1324.74
+Total Duration: 21.1964
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1318.73
+Total Duration: 21.2438
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1323.98
+Total Duration: 21.2896
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.08
+Total Duration: 21.3378
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1326.22
+Total Duration: 21.3848
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.84
+Total Duration: 21.4311
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.58
+Total Duration: 21.4772
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.28
+Total Duration: 21.5245
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1326.87
+Total Duration: 21.5727
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.49
+Total Duration: 21.6191
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1318.85
+Total Duration: 21.6665
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1318.85
+Total Duration: 21.712
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1319.06
+Total Duration: 21.7578
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1319.27
+Total Duration: 21.8069
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.1
+Total Duration: 21.8541
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.41
+Total Duration: 21.9009
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.42
+Total Duration: 21.9468
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.42
+Total Duration: 21.9929
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1326.62
+Total Duration: 22.0395
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.09
+Total Duration: 22.0859
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1320.75
+Total Duration: 22.1334
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1320.77
+Total Duration: 22.1792
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1312.01
+Total Duration: 22.2264
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1311.99
+Total Duration: 22.2734
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1306.93
+Total Duration: 22.3197
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1306.42
+Total Duration: 22.3662
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1299.58
+Total Duration: 22.4126
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1304.39
+Total Duration: 22.4599
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1304.29
+Total Duration: 22.5066
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1299.85
+Total Duration: 22.5538
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1299.84
+Total Duration: 22.6014
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1299.87
+Total Duration: 22.6468
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1299.83
+Total Duration: 22.6931
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1299.64
+Total Duration: 22.7404
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1290.08
+Total Duration: 22.7864
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1290.09
+Total Duration: 22.833
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1289.17
+Total Duration: 22.8792
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1281.85
+Total Duration: 22.9254
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1280.01
+Total Duration: 22.9728
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1278.65
+Total Duration: 23.0196
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1275.54
+Total Duration: 23.0673
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1279.87
+Total Duration: 23.1123
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1282.5
+Total Duration: 23.1599
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1284.11
+Total Duration: 23.2072
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1283.8
+Total Duration: 23.2536
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1280.53
+Total Duration: 23.3006
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1280.43
+Total Duration: 23.3466
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1280.43
+Total Duration: 23.3917
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1280.7
+Total Duration: 23.4395
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1282.21
+Total Duration: 23.4862
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1282.38
+Total Duration: 23.5339
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1282.27
+Total Duration: 23.5799
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1282.27
+Total Duration: 23.625
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1282.21
+Total Duration: 23.6732
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1278.74
+Total Duration: 23.7194
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1278.71
+Total Duration: 23.7666
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1272.65
+Total Duration: 23.8127
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1270.66
+Total Duration: 23.86
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1268.79
+Total Duration: 23.907
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1268.72
+Total Duration: 23.9539
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1269.19
+Total Duration: 24.0008
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1270.29
+Total Duration: 24.0463
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1270.01
+Total Duration: 24.0941
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1270.01
+Total Duration: 24.1408
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1270.03
+Total Duration: 24.1865
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1270.03
+Total Duration: 24.232
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1270.03
+Total Duration: 24.2772
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1272.8
+Total Duration: 24.324
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1272.77
+Total Duration: 24.3717
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1272.99
+Total Duration: 24.4188
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1273.62
+Total Duration: 24.4661
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1273.62
+Total Duration: 24.5101
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1273.62
+Total Duration: 24.5565
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1273.62
+Total Duration: 24.6031
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1273.93
+Total Duration: 24.6482
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1273.99
+Total Duration: 24.6942
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1273.99
+Total Duration: 24.7417
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1273.99
+Total Duration: 24.7875
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1273.99
+Total Duration: 24.8334
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1273.99
+Total Duration: 24.8787
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1275.63
+Total Duration: 24.9258
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1275.53
+Total Duration: 24.9739
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1276.32
+Total Duration: 25.0205
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1276.97
+Total Duration: 25.0675
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1276.96
+Total Duration: 25.113
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1276.79
+Total Duration: 25.1586
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1275.56
+Total Duration: 25.2068
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1273.97
+Total Duration: 25.2532
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1273.77
+Total Duration: 25.2994
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1273.95
+Total Duration: 25.346
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1273.9
+Total Duration: 25.3932
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1274.92
+Total Duration: 25.4405
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1275.85
+Total Duration: 25.4869
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1275.85
+Total Duration: 25.5339
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1275.45
+Total Duration: 25.5799
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1274.41
+Total Duration: 25.6253
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1274.41
+Total Duration: 25.6726
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1272.74
+Total Duration: 25.7196
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1272.49
+Total Duration: 25.7664
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1272.66
+Total Duration: 25.8125
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1274.93
+Total Duration: 25.8594
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1277.25
+Total Duration: 25.9065
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1281.34
+Total Duration: 25.9528
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1281.99
+Total Duration: 25.9995
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1282.3
+Total Duration: 26.0452
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1291.75
+Total Duration: 26.091
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1291.75
+Total Duration: 26.1383
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1300.3
+Total Duration: 26.1845
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1301.99
+Total Duration: 26.2301
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1302.02
+Total Duration: 26.2772
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1309.63
+Total Duration: 26.324
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1310.7
+Total Duration: 26.3709
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1310.7
+Total Duration: 26.4155
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1310.7
+Total Duration: 26.4618
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1315.89
+Total Duration: 26.5089
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.48
+Total Duration: 26.5536
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.75
+Total Duration: 26.6005
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.62
+Total Duration: 26.6469
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.6
+Total Duration: 26.6941
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.29
+Total Duration: 26.7406
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1316.89
+Total Duration: 26.7882
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1317.44
+Total Duration: 26.8354
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1317.49
+Total Duration: 26.881
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1311.27
+Total Duration: 26.9279
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1319.21
+Total Duration: 26.9754
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1319.43
+Total Duration: 27.0203
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1319.48
+Total Duration: 27.0667
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1323.76
+Total Duration: 27.1136
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1323.76
+Total Duration: 27.1591
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1329.46
+Total Duration: 27.2069
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1328.01
+Total Duration: 27.254
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1328.49
+Total Duration: 27.3014
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1328.5
+Total Duration: 27.3474
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1328.5
+Total Duration: 27.3943
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1328.43
+Total Duration: 27.4409
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1328.43
+Total Duration: 27.4853
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1328.43
+Total Duration: 27.5303
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1328.39
+Total Duration: 27.5776
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.77
+Total Duration: 27.6244
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.78
+Total Duration: 27.6713
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1323.19
+Total Duration: 27.7178
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1319.49
+Total Duration: 27.7637
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1319.04
+Total Duration: 27.8093
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1319.14
+Total Duration: 27.8556
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.93
+Total Duration: 27.9033
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.98
+Total Duration: 27.9488
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.96
+Total Duration: 27.9953
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1327.11
+Total Duration: 28.0431
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1324.71
+Total Duration: 28.0897
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.08
+Total Duration: 28.1369
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.6
+Total Duration: 28.1837
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1326.89
+Total Duration: 28.2305
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1326.87
+Total Duration: 28.2771
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1326.64
+Total Duration: 28.3237
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.31
+Total Duration: 28.3721
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.78
+Total Duration: 28.4184
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1327.19
+Total Duration: 28.4659
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.05
+Total Duration: 28.5124
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.05
+Total Duration: 28.5575
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.06
+Total Duration: 28.6048
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.03
+Total Duration: 28.6512
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1325.4
+Total Duration: 28.6977
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1323.85
+Total Duration: 28.7433
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1326.49
+Total Duration: 28.7906
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1326.04
+Total Duration: 28.8388
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1315.74
+Total Duration: 28.8847
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1320.38
+Total Duration: 28.9308
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1316.72
+Total Duration: 28.9776
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1316.76
+Total Duration: 29.0236
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1316.77
+Total Duration: 29.0709
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.27
+Total Duration: 29.1179
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.12
+Total Duration: 29.1643
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.03
+Total Duration: 29.2114
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321.04
+Total Duration: 29.2574
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321
+Total Duration: 29.3038
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1320.94
+Total Duration: 29.3495
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1319.34
+Total Duration: 29.3967
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1322.98
+Total Duration: 29.4437
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1319.69
+Total Duration: 29.49
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1318.67
+Total Duration: 29.5359
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1331.02
+Total Duration: 29.5827
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1330.92
+Total Duration: 29.6292
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1329.94
+Total Duration: 29.6754
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1320.3
+Total Duration: 29.7225
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1320.29
+Total Duration: 29.7692
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1320.27
+Total Duration: 29.8159
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1320.26
+Total Duration: 29.8628
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1320.26
+Total Duration: 29.9093
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1320.26
+Total Duration: 29.9539
+1 bodies are detected!
+Head_Z - SpineShoulder_Z = 1321
+Total Duration: 30.0012
+Max Z delta (Head at BACK): 1378.38
+Min Z delta (Head at FRONT): 0
+ShutDown Tracker and close device!
+Press Any Key to exit...
