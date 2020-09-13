@@ -1,13 +1,14 @@
 from tensorflow.compat.v1.keras.datasets.mnist import load_data
 import numpy as np
+import time
 
 
 def relu(x):
-    return np.where(x < 0, 0.01*x, x)
+    return np.where(x < 0, 0, x)
 
 
 def relu_grad(x):
-    return np.where(x < 0, 0.01, 1)
+    return np.where(x < 0, 0, 1)
 
 
 def sigmoid(x):
@@ -60,7 +61,8 @@ def forward_prop(X, params, activate_funcs):
     :param X: 输入矩阵，每一列代表一个样本
     :param params: 包括每一层权重矩阵Wn和偏置矩阵bn的参数字典
     :param activate_funcs: 字符数组，表示每一层使用的激活函数，目前有'sigmoid'和'relu'两种
-    :return: yhat，输出层的输出值，10*m；caches，保存每一层的线性输出Zn和激活输出An的缓存字典
+    :return: yhat，输出层的输出值，10*m；
+    caches，保存每一层的线性输出Zn和激活输出An的缓存字典
     '''
 
     assert len(params) == 2 * len(activate_funcs)
@@ -88,17 +90,18 @@ def forward_prop(X, params, activate_funcs):
 
 def compute_cost(yhat, y):
     '''
-    计算交叉熵作为损失
+    计算二分类交叉熵作为损失
 
-    :param yhat: 预测值10*m
-    :param y: 真实值的扩展10*m
+    :param yhat: 预测值1*m
+    :param y: 真实值的扩展1*m
     :return: 预测值与真实值之间的损失（交叉熵的平均值）
     '''
 
     assert yhat.shape == y.shape
 
     m = y.shape[1]
-    cost = np.sum(-np.log(yhat + 0.0000000001) * y) / m
+    cost = - y * np.log(yhat) - (1 - y) * np.log((1 - yhat))
+    cost = np.sum(cost) / m
     return cost
 
 
@@ -116,12 +119,8 @@ def back_prop(Y, caches, params, activate_funcs):
     L = len(activate_funcs)
     m = Y.shape[1]
     AL = caches['A' + str(L)]
-    AL = AL + 0.0000000001
-    last_dA = - (Y / AL)
-    # epsilon = 0.00001
-    # yadd = -Y * np.log(AL + epsilon)
-    # ymin = -Y * np.log(AL - epsilon)
-    # last_dA = (yadd - ymin) / (2 * epsilon)
+    assert Y.shape == AL.shape
+    last_dA = - (Y / AL) + (1 - Y) / (1 - AL)
 
     grads = {}
     for i in reversed(range(L)):
@@ -130,26 +129,23 @@ def back_prop(Y, caches, params, activate_funcs):
         temp_A = caches['A' + str(i)]
         temp_W = params['W' + str(i + 1)]
         if temp_act == 'sigmoid':
-            # dZ = last_dA * sigmoid_grad(temp_Z)
-            dZ = last_dA * grad_fit(temp_Z, sigmoid)
-        elif temp_act == 'relu':
-            # dZ = last_dA * relu_grad(temp_Z)
-            dZ = last_dA * grad_fit(temp_Z, relu)
-        elif temp_act == 'softmax':
-            # dZ = last_dA * softmax_grad(temp_Z)
+            dZ = last_dA * sigmoid_grad(temp_Z)
             # dZ = AL - Y
-            dZ = last_dA * grad_fit(temp_Z, softmax)
+        elif temp_act == 'relu':
+            dZ = last_dA * relu_grad(temp_Z)
+        elif temp_act == 'softmax':
+            dZ = last_dA * softmax_grad(temp_Z)
         else:
             dZ = last_dA
-        dW = np.dot(dZ, temp_A.T) / m
-        db = np.sum(dZ, axis=1, keepdims=True) / m
+        dW = 1. / m * np.dot(dZ, temp_A.T)
+        db = 1. / m * np.sum(dZ, axis=1, keepdims=True)
         last_dA = np.dot(temp_W.T, dZ)
         grads['dW' + str(i + 1)] = dW
         grads['db' + str(i + 1)] = db
     return grads
 
 
-def update_params(params, grads, learning_rate = 0.1):
+def update_params(params, grads, learning_rate=0.1):
     '''
     根据梯度更新参数值
 
@@ -167,52 +163,129 @@ def update_params(params, grads, learning_rate = 0.1):
     return params
 
 
-def cal_accuracy(lastA, y):
-    # 取10个神经元中最大的为预测标签
-    lastA = np.argmax(lastA, axis=0)
-    lastA = np.reshape(lastA, (1, -1))
-    return np.count_nonzero(lastA == y) / y.shape[1]
+def cal_accuracy(lastA, y, bound=0.5):
+    temp = (lastA > bound).astype(float)
+    return np.count_nonzero(temp == y) / y.shape[1]
 
 
-def grad_check(X, Y, params, grads, activate_funcs, epsilon = 0.001):
+def dict2vector(params, layers_dims):
     '''
-    对计算出的梯度进行检查
+    将所有参数拉直并拼接成一个大的1 * n的向量并返回
 
-    :param X: 输入 n * m
-    :param Y: 真实标签值 10 * m
     :param params: 包括每一层权重矩阵Wn和偏置矩阵bn的参数字典
-    :param grads: 保存每一层权重参数梯度dWn和偏置参数梯度dbn的梯度字典
-    :param activate_funcs: 字符数组，表示每一层使用的激活函数
-    :param epsilon: 模拟计算梯度时增加的值
-    :return: 返回包含每一层梯度差异大小（包含dWn和dbn）的字典grad_dist
+    :param layers_dims: 每一层输入的维度，第一个数字表示输入层
+    :return: 返回由W1,b1 到 Wn, bn 组成的一个大向量
     '''
-    grad_dist = {}
-    L = len(activate_funcs)
-    for i in range(1, L + 1):
-        w_ori = params['W' + str(i)]
-        params['W' + str(i)] = w_ori + epsilon
-        yhat_add, _ = forward_prop(X, params, activation_functions)
-        cost_add = compute_cost(yhat_add, Y)
-        params['W' + str(i)] = w_ori - epsilon
-        yhat_min, _ = forward_prop(X, params, activation_functions)
-        cost_min = compute_cost(yhat_min, Y)
-        dwd = (cost_add - cost_min) / (2 * epsilon)
-        np.sum(grads['dW' + str(i)])
-        grad_dist['W' + str(i)] = (cost_add - cost_min) / (2 * epsilon)
-        params['W' + str(i)] = w_ori
+    theta = None
+    for i in range(1, len(layers_dims)):
+        w = params['W' + str(i)].copy()
+        w = w.reshape(1, -1)
+        b = params['b' + str(i)].copy()
+        b = b.reshape(1, -1)
+        if theta is None:
+            theta = np.concatenate((w, b), axis=1)
+        else:
+            theta = np.concatenate((theta, w), axis=1)
+            theta = np.concatenate((theta, b), axis=1)
+    return theta
 
-        b_ori = params['b' + str(i)]
-        params['b' + str(i)] = b_ori + epsilon
-        yhat_add, _ = forward_prop(X, params, activation_functions)
-        cost_add = compute_cost(yhat_add, Y)
-        params['b' + str(i)] = b_ori - epsilon
-        yhat_min, _ = forward_prop(X, params, activation_functions)
-        cost_min = compute_cost(yhat_min, Y)
-        grad_dist['b' + str(i)] = (cost_add - cost_min) / (2 * epsilon)
-        params['b' + str(i)] = b_ori
 
-    return grad_dist
+def vector2dict(theta, layers_dims):
+    '''
+    将拉直后的参数向量，重新整合成参数字典
 
+    :param theta: 拉直后1 * n的参数向量
+    :param layers_dims: 每一层输入的维度，第一个数字表示输入层
+    :return: 返回按照神经网络结构重新整合的包括每一层权重矩阵Wn和偏置矩阵bn的参数字典
+    '''
+    params = {}
+    offset = 0
+    for i in range(1, len(layers_dims)):
+        w_dims = layers_dims[i] * layers_dims[i - 1]
+        w = theta[:, offset:(offset + w_dims)].copy()
+        w = w.reshape(layers_dims[i], layers_dims[i - 1])
+        offset += w_dims
+        params['W' + str(i)] = w
+        b_dims = layers_dims[i] * 1
+        b = theta[:, offset:(offset + b_dims)].copy()
+        b = b.reshape(layers_dims[i], 1)
+        offset += b_dims
+        params['b' + str(i)] = b
+    return params
+
+
+def grads2vector(grads, layers_dims):
+    '''
+    将所有的梯度拉直并拼接成一个大的1 * n的向量并返回
+
+    :param grads: 保存每一层权重参数梯度dWn和偏置参数梯度dbn的梯度字典
+    :param layers_dims: 每一层输入的维度，第一个数字表示输入层
+    :return: 返回由dW1,db1 到 dWn, dbn 组成的一个大向量
+    '''
+    gradients = None
+    for i in range(1, len(layers_dims)):
+        dw = grads['dW' + str(i)].copy()
+        dw = dw.reshape(1, -1)
+        db = grads['db' + str(i)].copy()
+        db = db.reshape(1, -1)
+        if gradients is None:
+            gradients = np.concatenate((dw, db), axis=1)
+        else:
+            gradients = np.concatenate((gradients, dw), axis=1)
+            gradients = np.concatenate((gradients, db), axis=1)
+    return gradients
+
+
+def gradient_check_n(parameters, gradients, layers_dims, X, Y, epsilon=1e-7):
+    '''
+    进行梯度检测
+
+    :param parameters: 包括每一层权重矩阵Wn和偏置矩阵bn的参数字典
+    :param gradients: 保存每一层权重参数梯度dWn和偏置参数梯度dbn的梯度字典
+    :param layers_dims: 每一层输入的维度，第一个数字表示输入层
+    :param X: 输入
+    :param Y: 真实值
+    :param epsilon: 允许的最大差异
+    :return: 返回近似梯度与实际计算梯度的差异
+    '''
+
+    # Set-up variables
+    parameters_values = dict2vector(parameters, layers_dims)
+    grad = grads2vector(gradients, layers_dims)
+    num_parameters = parameters_values.shape[1]
+    print('number of parameters: ' + str(num_parameters))
+    J_plus = np.zeros((1, num_parameters))
+    J_minus = np.zeros((1, num_parameters))
+    gradapprox = np.zeros((1, num_parameters))
+
+    for i in range(num_parameters):
+        thetaplus = np.copy(parameters_values)
+        thetaplus[0, i] = thetaplus[0, i] + epsilon
+        yhat, _ = forward_prop(X, vector2dict(thetaplus, layers_dims), activation_functions)
+        J_plus[0, i] = compute_cost(yhat, Y)
+        # print('J_plus ' + str(i) + ' is: ' + str(J_plus[0, i]))
+
+        thetaminus = np.copy(parameters_values)
+        thetaminus[0, i] = thetaminus[0, i] - epsilon
+        yhat, _ = forward_prop(X, vector2dict(thetaminus, layers_dims), activation_functions)
+        J_minus[0, i] = compute_cost(yhat, Y)
+        # print('J_minus ' + str(i) + ' is: ' + str(J_minus[0, i]))
+
+        gradapprox[0, i] = (J_plus[0, i] - J_minus[0, i]) / (2 * epsilon)
+        # print('gradapprox ' + str(i) + ' is: ' + str(gradapprox[0, i]))
+
+    numerator = np.linalg.norm(grad - gradapprox)
+    denominator = np.linalg.norm(grad) + np.linalg.norm(gradapprox)
+    difference = numerator / denominator
+
+    if difference > 2e-7:
+        print(
+            "\033[93m" + "There is a mistake in the backward propagation! difference = " + str(difference) + "\033[0m")
+    else:
+        print(
+            "\033[92m" + "Your backward propagation works perfectly fine! difference = " + str(difference) + "\033[0m")
+
+    return difference, (grad - gradapprox)
 
 
 (x_train, y_train), (x_test, y_test) = load_data(r'D:\PythonWorkspace\TFTryout\mnist.npz')
@@ -229,40 +302,48 @@ y_train_lab = np.resize(y_train, (y_train.shape[0], 1)).T
 x_test_pro = np.resize(x_test_pro, (x_test_pro.shape[0], -1)).T
 y_test_lab = np.resize(y_test, (y_test.shape[0], 1)).T
 
-# 扩展训练集输出
-y_train_ext = np.zeros((10, y_train_lab.shape[1]))
-for i in range(len(y_train_lab[0])):
-    y_train_ext[y_train_lab[0, i], i] = 1.0
+# 仅做二分类，不是1的label都改为0
+y_train_lab = (y_train_lab == 1).astype(float)
+y_test_lab = (y_test_lab == 1).astype(float)
 
-# 定义4层神经网络 100 -> 50 -> 20 -> 10
-layers_dims = [x_train_pro.shape[0], 100, 50, 20, 10]
+# 定义4层神经网络 80 -> 30 -> 10 -> 1
+layers_dims = [x_train_pro.shape[0], 2, 1]
 parameters = initialize_parameters(layers_dims)
 
 # 定义每一层的激活函数
-# activation_functions = ['relu', 'relu', 'relu', 'sigmoid']
-activation_functions = ['relu', 'relu', 'relu', 'softmax']
+activation_functions = ['relu', 'sigmoid']
+# activation_functions = ['relu', 'relu', 'relu', 'softmax']
 # activation_functions = ['sigmoid', 'sigmoid', 'sigmoid', 'softmax']
 
 train_nums = 301
-
+# batch_size = 5000
 for i in range(train_nums):
-    yhat, caches = forward_prop(x_train_pro, parameters, activation_functions)
-    assert yhat.shape == y_train_ext.shape
+    # 仅取一部分进行训练
+    # train_set_idx = np.random.randint(0, x_train_pro.shape[1], batch_size)
+    # train_set = x_train_pro[:, train_set_idx]
+    # train_lab = y_train_lab[0, train_set_idx].reshape(1, -1)
+    train_set = x_train_pro
+    train_lab = y_train_lab
+    yhat, caches = forward_prop(train_set, parameters, activation_functions)
+    assert yhat.shape == train_lab.shape
 
     if i % 20 == 0:
-        cost = compute_cost(yhat, y_train_ext)
+        cost = compute_cost(yhat, train_lab)
         print("After training " + str(i) + " times, cost is " + str(cost))
-        yhat_train, _ = forward_prop(x_train_pro, parameters, activation_functions)
-        train_acc = cal_accuracy(yhat_train, y_train_lab)
+        train_acc = cal_accuracy(yhat, train_lab)
         print("Accuracy on Training set is: " + str(train_acc))
 
-    grads = back_prop(y_train_ext, caches, parameters, activation_functions)
+    grads = back_prop(train_lab, caches, parameters, activation_functions)
     assert len(grads) == len(parameters)
+    # 每100轮进行一次梯度校验
+    if i % 100 == 0:
+        time_start = time.time()
+        diff, diff_grad = gradient_check_n(parameters, grads, layers_dims, train_set, train_lab)
+        print("After training " + str(i) + " times, gradient check find difference is " + str(diff))
+        time_end = time.time()
+        print('gradient check cost ' + str(time_end - time_start) + ' s')
 
-    # 每隔一段时间进行一次grad check
-    # if i % 20 == 0:
-
-    parameters = update_params(parameters, grads, 0.05)
+    parameters = update_params(parameters, grads, 0.005)
 
 
 print("Training is Done")
