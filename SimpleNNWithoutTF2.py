@@ -297,10 +297,10 @@ def gradient_check_n(parameters, gradients, layers_dims, X, Y, epsilon=1e-7):
 # preprocess: normalize and roll up
 x_train_pro = x_train / 255.0
 x_test_pro = x_test / 255.0
-x_train_pro = np.resize(x_train_pro, (x_train_pro.shape[0], -1)).T
-y_train_lab = np.resize(y_train, (y_train.shape[0], 1)).T
-x_test_pro = np.resize(x_test_pro, (x_test_pro.shape[0], -1)).T
-y_test_lab = np.resize(y_test, (y_test.shape[0], 1)).T
+x_train_pro = np.reshape(x_train_pro, (x_train_pro.shape[0], -1)).T
+y_train_lab = np.reshape(y_train, (y_train.shape[0], 1)).T
+x_test_pro = np.reshape(x_test_pro, (x_test_pro.shape[0], -1)).T
+y_test_lab = np.reshape(y_test, (y_test.shape[0], 1)).T
 
 # 仅做二分类，不是1的label都改为0
 y_train_lab = (y_train_lab == 1).astype(float)
