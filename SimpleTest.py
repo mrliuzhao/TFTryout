@@ -1,43 +1,40 @@
-import matplotlib.pyplot as plt
-import pandas as pd
+filename = r'C:\Users\Administrator\Desktop\standardPose.log'
+count = 0
+pointDict = {}
+count = 0
+with open(filename) as f:
+    for line in f:
+        if '----------------------------------------------' in line:
+            count += 1
+            continue
+        spts = line.split(': (')
+        xyz = spts[1][:-2].split(',')
+        if pointDict.get(spts[0], None) is None:
+            pointDict[spts[0]] = [0, 0, 0]
+        x = pointDict[spts[0]][0] + float(xyz[0])
+        y = pointDict[spts[0]][1] + float(xyz[1])
+        z = pointDict[spts[0]][2] + float(xyz[2])
+        pointDict[spts[0]] = [x, y, z]
 
-# filename = r'C:\Users\Administrator\Desktop\logs(67)\2020-09-14\fes-main-0.log'
-# filename = r'C:\Users\Administrator\Desktop\logs(69)\2020-09-14\fes-main-0.log'
-#
-# timestamps = []
-# pitchAngle = []
-# rollAngle = []
-# yawAngle = []
-# with open(filename) as f:
-#     for line in f:
-#         if '获得头部实时旋转角度信息' in line:
-#             start = line.index('TimeStamp')
-#             parts = line[start:].split(';')
-#             timestamps.append(int(parts[0].split(': ')[1]))
-#             pitchAngle.append(float(parts[1].split(': ')[1]))
-#             rollAngle.append(float(parts[2].split(': ')[1]))
-#             yawAngle.append(float(parts[3].split(': ')[1]))
-#
-# for i in range(1, len(timestamps)):
-#     last = yawAngle[i - 1]
-#     cur = yawAngle[i]
 
-df = pd.read_csv(r'.\StockMore\data\sh.600519-01d.csv')
+pointSeq = [
+    '0', '1', '3', '26', '5', '6', '7', '8',
+    '12', '13', '14', '15', '18', '19', '20', '21',
+    '22', '23', '24', '25', '2', '9', '10', '16', '17'
+]
+for s in pointSeq:
+    x = pointDict[s][0] / count
+    y = pointDict[s][1] / count
+    z = pointDict[s][2] / count
+    print(x, y, z)
 
-close = list(df['close'])
-b1 = 0.9
-b2 = 0.99
-ma1 = [0.0]
-ma2 = [0.0]
-for c in close:
-    temp1 = b1 * ma1[-1] + (1 - b1) * c
-    ma1.append(temp1)
-    temp2 = b2 * ma2[-1] + (1 - b2) * c
-    ma2.append(temp2)
 
-plt.plot(close, label='original values')
-plt.plot(ma1, label='beta = 0.9')
-plt.plot(ma2, label='beta = 0.99')
-plt.title('Moving Average with different beta')
-plt.legend()
-plt.show()
+
+print('SpineBase: ()')
+
+
+
+
+
+
+
